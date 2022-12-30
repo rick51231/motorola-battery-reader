@@ -1,0 +1,17 @@
+#define COLOR_ORANGE 3
+#define COLOR_RED 2
+#define COLOR_GREEN 1
+#define COLOR_NONE 0
+
+#define DS2433_ID 0xA3
+#define DS2438_ID 0xA6
+
+#define WIFI_TIMEOUT 15000
+
+
+#if CONFIG_FREERTOS_UNICORE
+#define ARDUINO_RUNNING_CORE 0
+#else
+#define ARDUINO_RUNNING_CORE 1
+#endif
+
