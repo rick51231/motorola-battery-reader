@@ -2,7 +2,11 @@
 Development of open wireless Motorola IMPRES battery reader (gen 2 batteries)
 
 Each battery have two chips: DS2433 (1Wire EEPROM) and DS2438 (1Wire battery monitor). 
+
 In folder [images](images) you can find some prototype assembly images.
+
+File [/dev/Dumps.md](/dev/Dumps.md) contains raw DS2433/DS2438 battery chip dumps with the referenced OTA data.
+
 
 ## Firmware installation
 * Clone repository
