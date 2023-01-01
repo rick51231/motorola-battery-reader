@@ -11,10 +11,13 @@ In folder [images](images) you can find some prototype assembly images.
 * Upload firmware via Arduino IDE or Arduino-CLI
 
 ## Hardware
-* Cheap chineese IMPRES (not really) charger
+* Cheap chinese IMPRES (not really) charger
 * ESP32 devkit
 * 5V DC/DC
 * Wires, resistors
+
+## Software
+For parsing battery data you can use `BMS` class from the [rick51231/node-dmr-lib](https://github.com/rick51231/node-dmr-lib) (Services.BMS.fromBatteryChip)
 
 ## TODO list
 * Provide hardware assembly instructions
