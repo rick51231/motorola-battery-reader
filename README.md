@@ -29,4 +29,3 @@ For parsing battery data you can use `BMS` class from the [rick51231/node-dmr-li
 * Provide battery information and pinout
 * Add 1-Wire bypass mode to work with original IMPRES BatteryReader software
 * Make own PCB
-* Provide example server application
